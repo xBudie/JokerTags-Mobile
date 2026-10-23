@@ -1,38 +1,31 @@
 # JokerTags Mobile
 
-Etiquetas compactas para los **Jokers de Balatro**: multiplicadores, fichas, dinero, contadores, activaciones y ediciones, sin grandes recuadros que tapen las cartas.
+**Etiquetas pequeñas y dinámicas para los comodines de Balatro.** Consulta sus bonificaciones y estados de un vistazo, sin abrir la descripción de cada carta ni llenar la pantalla de paneles.
 
-Diseñado y probado para **Balatro Android horizontal con Lovely**. Su compatibilidad en PC es plausible por el uso de Lua/LÖVE/Lovely, pero **aún no se ha validado en Windows ni Linux**.
+Pensado para jugar en **Android en horizontal**, con una interfaz discreta que mantiene el estilo visual de Balatro.
 
 ## Características
 
-- Etiquetas dinámicas pequeñas y coloreadas.
-- Palos ♥ ♦ ♣ ♠ representados con iconos compactos.
-- Indicadores **ON/OFF** para las habilidades condicionales.
-- Segunda etiqueta independiente para Laminada (+50 fichas), Holográfica (+10 mult.) y Policroma (X1.5).
-- No necesita instalar JokerDisplay.
+- Muestra multiplicadores, fichas, dinero y contadores que se actualizan durante la partida.
+- Usa colores e iconos compactos para diferenciar bonificaciones y palos (♥ ♦ ♣ ♠).
+- Indica **ON/OFF** cuando una habilidad depende de una condición.
+- Añade etiquetas independientes para las ediciones **Laminada**, **Holográfica** y **Policroma**.
+- Evita mostrar indicadores cuando no aportan información útil.
 
-## Instalación en Android
+## Instalación
 
-Requiere Balatro previamente preparado para mods mediante Lovely. La versión de Google Play sin modificaciones **no carga estos mods directamente**.
+Necesitas una instalación de Balatro compatible con **Lovely**.
 
-1. Obtén el ZIP instalable de una futura publicación en **Releases**.
-2. Impórtalo mediante un administrador de mods de Balatro para Android, o extrae la carpeta `JokerTagsMobile` dentro del directorio de mods usado por tu instalación (habitualmente `ASET/Mods`).
-3. Elimina versiones anteriores para evitar que se cargue dos veces.
-4. Reinicia Balatro.
+1. Descarga el ZIP del mod desde la sección **Releases** cuando esté disponible.
+2. Impórtalo con tu administrador de mods para Android o coloca la carpeta `JokerTagsMobile` en el directorio de mods que utilice tu instalación.
+3. Retira cualquier versión anterior para evitar duplicados y reinicia el juego.
 
-Documentación de modding móvil de Steamodded: https://github.com/Steamodded/smods/wiki/Installing-Steamodded-mobile
+> **Compatibilidad:** probado en Balatro Android. El funcionamiento en PC aún está pendiente de pruebas.
 
-## Estado del proyecto
+## Código abierto y créditos
 
-- **v1.0.0**: versión depurada, basada en la v0.20 probada en Android.
-- No todos los Jokers requieren una etiqueta numérica; los efectos puramente pasivos pueden mostrarse sin texto.
-- No se garantiza compatibilidad con Jokers añadidos por otros mods.
+Proyecto comunitario no oficial, distribuido bajo la licencia **GPL-3.0**.
 
-## Créditos y licencia
+Agradecimientos a [JokerDisplay, de nh6574](https://github.com/nh6574/JokerDisplay), cuyas definiciones y cálculos sirvieron de referencia para parte de la implementación.
 
-JokerTags Mobile es un mod comunitario no oficial. Las etiquetas visuales son independientes. Para algunas definiciones y cálculos se tomó como referencia [JokerDisplay de nh6574](https://github.com/nh6574/JokerDisplay).
-
-Distribuido bajo **GNU GPL v3.0**. Al redistribuirlo, conservar licencia, código fuente y atribuciones.
-
-No incluye Balatro, su APK ni archivos del juego; no está afiliado con LocalThunk ni Playstack.
+Balatro pertenece a sus respectivos creadores y titulares. Este repositorio distribuye únicamente el mod.
