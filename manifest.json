@@ -1,0 +1,8 @@
+{
+  "name": "JokerTagsMobile",
+  "version_number": "1.0.0",
+  "description": "Etiquetas compactas y dinamicas para Jokers de Balatro Android; ediciones y estados ON/OFF",
+  "dependencies": [
+    "Thunderstore-lovely-0.9.0"
+  ]
+}
