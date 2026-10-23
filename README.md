@@ -4,6 +4,18 @@
 
 Pensado para jugar en **Android en horizontal**, con una interfaz discreta que mantiene el estilo visual de Balatro.
 
+## Capturas de pantalla
+
+Capturas reales de Balatro Android con JokerTags Mobile.
+
+**Bonificaciones y ediciones especiales**
+
+![JokerTags Mobile mostrando multiplicadores, fichas, dinero, estados y edición Policroma](./Screenshot_2026-10-23-18-44-29-22_fe03474bdfbfdc3428fc3cda9cb70a75.jpg)
+
+**Contadores y etiquetas compactas**
+
+![JokerTags Mobile mostrando bonificaciones, símbolos y el contador de Frijol Tortuga](./Screenshot_2026-10-23-19-01-04-57_fe03474bdfbfdc3428fc3cda9cb70a75.jpg)
+
 ## Características
 
 - Muestra multiplicadores, fichas, dinero y contadores que se actualizan durante la partida.
