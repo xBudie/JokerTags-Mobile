@@ -1,0 +1,9 @@
+JokerTags Mobile — mod comunitario no oficial de Balatro para Android.
+Diseño de etiquetas compactas independiente.
+
+Referencia y adaptación de definiciones funcionales: JokerDisplay, por nh6574:
+https://github.com/nh6574/JokerDisplay
+Licencia del proyecto de referencia: GNU GPL-3.0.
+JokerTags Mobile distribuido bajo GNU GPL-3.0. Archivo LICENSE incluido.
+
+Balatro y sus recursos pertenecen a sus respectivos titulares. No se distribuye el juego.
