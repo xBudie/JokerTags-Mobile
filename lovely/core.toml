@@ -1,0 +1,18 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 60
+
+[[patches]]
+[patches.module]
+before = "main.lua"
+source = "JokerTagsMobile.lua"
+name = "JokerTagsMobile.core"
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = "set_profile_progress()"
+position = "before"
+payload = 'require "JokerTagsMobile.core"'
+match_indent = true
